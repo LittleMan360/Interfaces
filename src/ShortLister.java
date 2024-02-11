@@ -49,13 +49,11 @@ public class ShortLister {
                     System.out.println("Strings < 5"); //header
 
                     //iterates through the array of words
-                    for ( int i =0 ; i< words.length ;i++ )
-                    {
+                    for (String word : words) {
                         //if the word is less than 5 characters, it is printed
-                        if( shortWordFilter.accept(words[i]) == true )
-                        {
+                        if (shortWordFilter.accept(word)) {
                             //prints the word
-                            System.out.print(words[i] + ", ");
+                            System.out.print(word + ", ");
                         }
                     }
                 }
