@@ -18,8 +18,8 @@ public class BigRectangleLister {
     }
     public static List<Rectangle> createRectangles() {
         List<Rectangle> rectangles = new ArrayList<>();
-        rectangles.add(new Rectangle(1, 4));
-        rectangles.add(new Rectangle(3, 6));
+        rectangles.add(new Rectangle(1, 2));
+        rectangles.add(new Rectangle(1, 3));
         rectangles.add(new Rectangle(4, 5));
         rectangles.add(new Rectangle(6, 7));
         rectangles.add(new Rectangle(9, 2));
