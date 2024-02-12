@@ -1,7 +1,6 @@
-import java.awt.Rectangle;
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 
 
@@ -51,6 +50,6 @@ public class BigRectangleLister {
     //converts a rectangle to a string
     public static String recttostring(Rectangle rectangle)
     {
-        return "Rectangle width= " + rectangle.getWidth() + ", height= " + rectangle.getHeight() + "]";
+        return "Rectangle width= " + rectangle.getWidth() + ", height= " + rectangle.getHeight();
     }
 }
