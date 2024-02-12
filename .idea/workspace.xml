@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24479f84-151d-4bbb-81c7-e79b9f7bb704" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SafeInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BigRectangleFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigRectangleFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BigRectangleLister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BigRectangleLister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShortLister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShortLister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShortWordFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShortWordFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +54,27 @@
       <option name="project" value="LOCAL" />
       <updated>1707645251465</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created basic short word lister and filter and rectangle filter and lister need to comment code out more">
+      <created>1707646521077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707646521077</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Cleaned up code warnings">
+      <created>1707646571726</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707646571726</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="made all needed classes and made filter interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="made all needed classes and made filter interface" />
+    <MESSAGE value="Created basic short word lister and filter and rectangle filter and lister need to comment code out more" />
+    <MESSAGE value="Cleaned up code warnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code warnings" />
   </component>
 </project>
