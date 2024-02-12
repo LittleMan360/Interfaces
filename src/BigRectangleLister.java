@@ -1,39 +1,38 @@
 import java.awt.Rectangle;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 
 
 
-//import java.awt.Rectangle;
+
 public class BigRectangleLister {
-    public static void main(String[] args)
-    {
+
+    public static void main(String[] args) {
         List<Rectangle> rectangles = createRectangles();
         List<Rectangle> bigRectangles = collectAll(rectangles, new BigRectangleFilter());
-        System.out.println("Large rectangles:");
-        for (Rectangle rectangle : bigRectangles)
-        {
+        System.out.println("Big rectangles:");
+        for (Rectangle rectangle : bigRectangles) {
             System.out.println(recttostring(rectangle));
         }
     }
-
-        //creates a list of rectangles
-    public static List<Rectangle> createRectangles()
-    {
+    public static List<Rectangle> createRectangles() {
         List<Rectangle> rectangles = new ArrayList<>();
-        rectangles.add(new Rectangle(2, 5));
-        rectangles.add(new Rectangle(8, 12));
+        rectangles.add(new Rectangle(1, 4));
+        rectangles.add(new Rectangle(3, 6));
         rectangles.add(new Rectangle(4, 5));
-        rectangles.add(new Rectangle(6, 9));
-        rectangles.add(new Rectangle(3, 5));
-        rectangles.add(new Rectangle(1, 10));
-        rectangles.add(new Rectangle(6, 5));
-        rectangles.add(new Rectangle(7, 9));
-        rectangles.add(new Rectangle(9, 4));
-        rectangles.add(new Rectangle(7, 8));
+        rectangles.add(new Rectangle(6, 7));
+        rectangles.add(new Rectangle(9, 2));
+        rectangles.add(new Rectangle(7, 11));
+        rectangles.add(new Rectangle(4, 12));
+        rectangles.add(new Rectangle(7, 10));
+        rectangles.add(new Rectangle(2, 8));
+        rectangles.add(new Rectangle(5, 7));
         return rectangles;
     }
+
+
 
     //collects all rectangles that pass the filter
     public static List<Rectangle> collectAll(List<Rectangle> rectangles, Filter filter)
@@ -52,6 +51,6 @@ public class BigRectangleLister {
     //converts a rectangle to a string
     public static String recttostring(Rectangle rectangle)
     {
-        return "Rectangle[width= " + rectangle.getWidth() + ", height= " + rectangle.getHeight() + "]";
+        return "Rectangle width= " + rectangle.getWidth() + ", height= " + rectangle.getHeight() + "]";
     }
 }
